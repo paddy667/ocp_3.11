@@ -1,0 +1,12 @@
+---
+
+###########################################################################
+### OpenShift Router and Registry Vars
+###########################################################################
+
+openshift_hosted_router_selector: 'node-role.kubernetes.io/infra=true' 
+openshift_hosted_router_replicas: 2
+
+openshift_hosted_registry_selector: 'node-role.kubernetes.io/infra=true' 
+openshift_hosted_registry_replicas: 1 
+

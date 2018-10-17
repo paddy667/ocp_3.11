@@ -1,0 +1,29 @@
+---
+
+###########################################################################
+### OpenShift Authentication Vars
+###########################################################################
+
+# ADFS auth
+#openshift_master_identity_providers:
+#  - name: airbus_auth
+#    challenge: false
+#    login: true
+#    mappingMethod: claim
+#    kind: OpenIDIdentityProvider
+#    clientID: d72384a1-77f4-4c0b-beb0-6bf7ca7e0b92
+#    clientSecret: 9OiY8ndCiwNRuOtjWq8BfWkN1rIokE/C8WLR2Fa0Rco=
+#    ca: ''
+#    claims:
+#      id:
+#      - sub
+#      preferredUsername:
+#      - unique_name
+#      name:
+#      - name
+#      email:
+#      - email
+#    urls:
+#      authorize: https://login.microsoftonline.com/6ba538fd-80c3-42c7-b23a-ae3ad3cecf0e/oauth2/authorize
+#      token: https://login.microsoftonline.com/6ba538fd-80c3-42c7-b23a-ae3ad3cecf0e/oauth2/token
+#

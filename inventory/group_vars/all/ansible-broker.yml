@@ -1,0 +1,7 @@
+---
+
+###########################################################################
+### Ansible Broker Config
+###########################################################################
+ansible_service_broker_install: False
+ansible_service_broker_node_selector: 'node-role.kubernetes.io/infra=true'

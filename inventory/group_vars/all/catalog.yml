@@ -1,0 +1,12 @@
+---
+
+###########################################################################
+### OpenShift Service Catalog Vars
+###########################################################################
+
+openshift_enable_service_catalog: False
+template_service_broker_install: True
+template_service_broker_selector: 
+  node-role.kubernetes.io/infra: true
+openshift_template_service_broker_namespaces: 
+  - 'openshift'
